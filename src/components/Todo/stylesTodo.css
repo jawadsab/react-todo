@@ -1,0 +1,45 @@
+.todo {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-right:1rem;
+}
+.todo li {
+    flex: 1;
+}
+.todo .check, .todo .trash {
+    padding: 0.8rem;
+    border: none;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.todo-item {
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.4;
+    color: grey;
+}
+.todo .check {
+    background-color: #2ec1ac;
+    color: white;
+}
+.todo .check:hover {
+    opacity: 0.8;
+}
+.todo .trash {
+    background-color: #7d0633;
+    color:white;
+    margin-left: 10px;
+}
+.todo .trash:hover {
+    opacity: 0.8;
+}
